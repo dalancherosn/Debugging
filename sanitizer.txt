@@ -1,0 +1,5 @@
+-fsanitizer=address
+
+g++ -Wall -fsanitize=address debug-v1.cpp
+
+g++ -Wall -fsanitiz=address -fsanitize=undefined -fsanitize=leak debug-v1.cpp
